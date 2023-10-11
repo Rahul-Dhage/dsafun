@@ -1,0 +1,61 @@
+
+body{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}.stack{
+    display: flex;
+    background-color: rgb(36, 42, 42);
+    padding: 20px;
+}
+.st{
+    width: 50%;
+    padding: 10px;
+    border: 1px;
+}
+input {
+    
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100px;
+    margin-top: 10px;
+
+}
+button{
+    padding: 5px;
+    color: aliceblue;
+    outline: none;
+    margin-top: 10px;
+    border: none;
+    font-weight: 800;
+    background-color: green;
+}
+.stackrow{
+
+    text-align: center;
+    min-width: 100px;
+    min-height: 500px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid rgb(244, 243, 243);
+    border-radius: 10px;
+    width: fit-content;
+   
+}
+.stElement{
+    background-color: rgb(14, 180, 147);
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.panale{
+    display: flex;
+    height: fit-content;
+}
